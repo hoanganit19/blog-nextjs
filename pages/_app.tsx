@@ -21,6 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
           crossOrigin="anonymous"
         />
       </Head>
+      <p>Ok chua?</p>
       <Component {...pageProps} />
     </>
   );
